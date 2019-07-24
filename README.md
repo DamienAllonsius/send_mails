@@ -1,8 +1,6 @@
-# A small script that sends you emails when your repo has new commits
+# A small script that sends you emails when your repo is updated
 
-Send automatically a mail when your repo has new commits
-
-Tired of having __maximum 2 collaborators__ that get github notifications on your private repositories ? Then this script does the job for you.
+Tired of having __maximum 2 collaborators__  who are allowed to get github notifications on your private repositories ? Then this script does the job for you !
 
 1. Configure the script mail_repo_example.sh by adding your local repo folder path, your __gmail__ email address, your password (__caution !__), the email address you want to send your message to, the subject of the message.
 
@@ -12,4 +10,4 @@ Tired of having __maximum 2 collaborators__ that get github notifications on you
 
 4. That's all folks !
 
-Cron will execute every hour your script which will fetch new commits of your repository. It will send you a mail with the details of the fetched data if he finds new commits !
+Cron will execute every hour your script which will fetch new commits of your repository. It will send you an email with the details of the fetched data if it finds new commits !
